@@ -7,7 +7,7 @@
 
 require '../src/CuentaBanco.php';
 
-$cuenta1 = new CuentaBanco(150);
+$cuenta1 = new CuentaBanco(250);
 
 $cuenta2 = new CuentaBanco(300);
 
