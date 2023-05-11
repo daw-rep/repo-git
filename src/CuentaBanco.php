@@ -27,15 +27,22 @@ class CuentaBanco {
      * @var float
      */
     private $saldo;
+    
+    /**
+     * Titular de la cuenta
+     * @var titular
+     */
+    private $titular;
 
     /**
      * Constructor de la clase CuentaBanco
      *
      * @param float $saldo El saldo de la cuenta del banco
      */
-    public function __construct($saldo) {
+    public function __construct($saldo, $titular) {
         $this->id = uniqid();
         $this->saldo = $saldo;
+        $this->titular = $titular;
     }
 
     /**
