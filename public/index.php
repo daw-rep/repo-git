@@ -2,12 +2,12 @@
 /*
  * @author daw-profesor daw-profesor@daw.es
  * @copyright 2023 Equipo Daw Distancia
- * @link https://elbanco.com Documentación de condiciones de uso del banco. 
+ * @link https://elbanco.org Documentación de condiciones de uso del banco. 
  */
 
 require '../src/CuentaBanco.php';
 
-$cuenta1 = new CuentaBanco(250);
+$cuenta1 = new CuentaBanco(50);
 
 $cuenta2 = new CuentaBanco(300);
 
