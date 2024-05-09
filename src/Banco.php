@@ -38,6 +38,13 @@ class Banco {
     public function __construct(string $nombre) {
         $this->nombre = $nombre;
     }
+    
+    /**
+     * Apertura de cuenta
+     * 
+     * @param float $saldo Saldo de la cuenta
+     * @param string $titular Titular de la cuenta
+     */
 
     public function abrirCuenta(float $saldo, string $titular) {
         $cuenta = new CuentaBanco($saldo, $titular);
